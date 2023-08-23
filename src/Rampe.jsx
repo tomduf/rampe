@@ -8,7 +8,7 @@ import {useControls} from "leva";
 
 export default function Rampe() {
     const {v1, v2, texte} = useControls('Versions de la rampe',{
-        v1:true,
+        v1:false,
         v2:false,
         texte:true
     })
