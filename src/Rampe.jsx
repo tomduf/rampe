@@ -13,7 +13,7 @@ export default function Rampe() {
         texte:true
     })
     const rampe1 = useGLTF("./Rampe/rampe1.gltf")
-    const escaliers = useGLTF("./Rampe/escaliers.glb")
+    const escaliers = useGLTF("./Rampe/escaliersbis.glb")
 
     return <>
         <Clone object={escaliers.scene} scale={6} rotation={[0,0, 0]}  />ç
