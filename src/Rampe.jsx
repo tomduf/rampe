@@ -16,8 +16,8 @@ export default function Rampe() {
     const escaliers = useGLTF("./Rampe/escaliers.glb")
 
     return <>
-        <Clone object={escaliers.scene} scale={6} rotation={[0,0, 0]}  />
-        <Clone object={rampe1.scene} scale={6} rotation={[-Math.PI/2, 0, 0]} position={[6.5, 11, 14]} visible={v1}  />
+        <Clone object={escaliers.scene} scale={6} rotation={[0,0, 0]}  />ç
+        <Clone object={rampe1.scene} scale={6} rotation={[-Math.PI/2, 0, 0]} position={[12.5, 6, 9.5]} visible={v1}  />
         <Text visible={v1 && texte} color={"red"} position={[ -0.4 , 1.2, -2]}  >
             V1
         </Text>
